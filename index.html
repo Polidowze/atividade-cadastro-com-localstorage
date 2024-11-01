@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JS  -->
+    <script src="js/motor.js"></script>
+
+    <title>: : Teste : :</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="realBody">
+        <form action="" method="post">
+            <fieldset class="Caixalog">
+                <legend class="txt">Cadastro</legend>
+                <h1 class="mainTitle"></h1>
+                <label for="nm" class="inputTitle">Nome:</label>
+                <input type="text" id="nm" name="nm">
+                <br>
+                <label for="curso" class="inputTitle">Curso:</label>
+                <input type="text" id="curso" name="curso">
+                <br>
+                <label for="data" class="inputTitle">Ano de Conclusão</label>
+                <input type="date" id="data" name="data">
+                <br>
+                <div onclick="InsertData()" class="submit">Enviar</div>
+                <hr>
+                <div onclick="ConsultarDados()" class="submit">Consultar</div>
+                <hr>
+                <div onclick="LimparSatanas()" class="submit">Limpar</div>
+                <hr>
+                <label for="cd" class="inputTitle">Código:</label>
+                <input type="number" name="cd" id="cd" min="0" value="0">
+                <br>
+                <div onclick="Pesquisa()" class="submit">Pesquisar</div>
+                <br>
+                <div onclick="AtualizarDados()" class="submit">Atualizar</div>
+                <br>
+                <div onclick="DeleteData()" class="submit">Deletar</div>
+
+            </fieldset>
+        </form>
+        <fieldset class="RESULTADOS">
+            <legend class="lege">RESULTADOS</legend>
+        <p class="RES" id="resultado"></p>
+        </fieldset>
+    </div>
+</body>
+</html>

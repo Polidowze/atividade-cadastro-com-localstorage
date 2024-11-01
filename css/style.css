@@ -1,0 +1,100 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    height: 50vh;
+    background: url(../img/1.jpg) no-repeat;
+background-size: cover;
+}
+
+input, select{
+    height: 20px;
+    border-radius: 6px;
+
+}
+
+hr{
+    width: 100%;
+}
+
+.realBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.mainTitle{
+    width: 100%;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.inputTitle{
+    width: 100%;
+    font-size: medium;
+}
+
+.submit{
+    width: 75%;
+    text-align: center;
+    border: none;
+    background-color: #00a0ff;
+    box-shadow: rgba(0, 183, 255, 0.5) 0px 1px 2px 1px;
+    border-radius: 6px;
+    transition: all 0.25s;
+}
+
+.RES{
+background-color: rgba(255, 255, 255, 0.75);
+box-shadow: none;
+text-align: center;
+font-size: large;
+color: black;
+}
+
+.RESULTADOS{
+    text-align: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+    border: solid black;
+
+}
+
+.lege{
+    background-color: white;
+    border: solid black;
+}
+
+.submit:hover{
+    background-color: rgb(64, 185, 255);
+    box-shadow: rgb(0, 183, 255) 0px 0px 10px 1px;
+}
+
+.selecting{
+    width: 100%;
+}
+
+.txt{
+    background-color: gray;
+    border: solid black 1px;
+}
+
+.Caixalog{
+    margin-top: 200px;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    padding: 20px;
+    padding-top: 5px;
+    background-color: grey;
+}
